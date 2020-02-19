@@ -3,7 +3,7 @@ const fileUpload = require('express-fileupload');
 const cors = require('cors');
 const app = express();
 
-const port = 6969;
+const port = 1337;
 
 app.use(fileUpload({
     createParentPath: true
